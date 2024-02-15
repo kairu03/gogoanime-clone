@@ -1,0 +1,45 @@
+p {
+    font-family: arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.whole-anime-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container1 {
+    border: 1px solid white;
+}
+
+
+.thumbnail-container {
+    margin-bottom: 5px;
+}
+
+
+.thumbnail {
+    width: 100%;
+}
+
+.anime-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffc119;
+    text-align: center;
+    margin: 8px 0px;
+    cursor: pointer;
+}
+
+.anime-ep {
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 16px;
+    color: white;
+}
